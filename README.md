@@ -2,4 +2,5 @@
 q-learning practice
 
 followed tutorials from:
-https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
+https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ (MountainCar)
+https://deeplizard.com/ (FrozenLake)
