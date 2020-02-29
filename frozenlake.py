@@ -7,8 +7,8 @@ import time
 env = gym.make("FrozenLake-v0")
 
 
-LEARNING_RATE = 0.1
-DISCOUNT_RATE = 0.9
+LEARNING_RATE = 0.2
+DISCOUNT_RATE = 0.95
 EPISODES = 10000
 STEPS_PER_EPISODE = 100
 
@@ -85,6 +85,7 @@ for episode in range(5):
 
 
 env.close()
+print(REWARDS_ALL_EPISODES)
 print(q_table)
 
 
